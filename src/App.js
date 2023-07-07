@@ -6,6 +6,7 @@ import { Upload } from "./components/Upload";
 
 function App() {
   return (
+
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -13,6 +14,7 @@ function App() {
         <Route path="/upload" element={<Upload />} />
       </Routes>
     </BrowserRouter>
+
   );
 }
 
